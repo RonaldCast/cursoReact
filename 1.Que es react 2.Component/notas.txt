@@ -1,2 +1,13 @@
 > react-script: no ayuda a trabajar con las configuraciones de 
 webpack
+
+> Parte 3:Props + PropTypes 
+    npm install --save prop-types: es modulo se usa para verificar cuales propiedades son pasadas al componente
+    para validar las propiedades
+    de que tipo y ver si son necesarias o requeridas
+> Parte 4: State 
+    > Ciclo de vida de react 
+        componentDidMount(){} : se efectua cuando el componente carga. 
+    > Nota cada veces que se ejecuta o se realiza un modificacion en le este este ejecuta render.
+
+
