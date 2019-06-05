@@ -6,6 +6,9 @@ import Header from './Global/Header'
 import Content from './Global/Content'
 import Footer from './Global/Footer' 
 
+//Data 
+import items from '../data/menu'
+
 class App extends Component{
   constructor(props) {
     super(props)
@@ -16,7 +19,7 @@ class App extends Component{
     this.handleName = this.handleName.bind(this)
   }
   handleName(e){
-    console.log(e.target.value)
+
     this.setState({
      name : e.target.value
     })
@@ -24,10 +27,10 @@ class App extends Component{
   render(){
     return (
       <div className="App">
-        <Header name={this.state.name} />
+        <Header name={this.state.name} items={items} />
         <input type="text" onChange={this.handleName} />
         <Content />
-        <Footer/>
+        <Footer copyright="&copy; Codeods 2019"/>
       </div>
     );
   }
