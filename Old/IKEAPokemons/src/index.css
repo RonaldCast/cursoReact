@@ -1,0 +1,48 @@
+.header{
+  background: #0058a3;
+  color: #fff;
+  padding: 15px 0px;
+}
+
+.contianerPokemon{
+  margin: 20px 0px;
+  border-bottom: 1.5px solid #cec4c4;
+  
+}
+
+.cardPokemon__body{
+  text-align: center;
+  background: #0058a3;
+  color: #fff;
+}
+
+.btn--card {
+  background: #334155;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 8px 10px
+}
+
+.btn--card:hover{
+  background: #64748B !important;
+}
+.cardPokemon__title{
+  font-size: 1rem;
+}
+
+.contianerDetail{
+  border: 1px solid #cec4c4;
+  border-radius: 5px;
+  padding:30px;
+  background: #F5F5F5;
+}
+
+.contianerDetail--ability{
+  font-size: .9rem;
+  margin: 5px;
+  padding: 7px 10px;
+  background: #DC2626;
+  border-radius:20px;
+  color: #fff;
+}
