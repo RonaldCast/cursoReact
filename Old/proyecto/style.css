@@ -1,0 +1,52 @@
+.box{
+    font-family: 'Noto Sans JP', sans-serif;
+    min-height: 220px;
+    color: rgb(236, 236, 236);
+    font-size: 1.1;
+}
+
+.box--pink{
+    background: #c53b6a;
+}
+
+.box--green{
+    background: #6f7b00;
+}
+
+.box--blue{
+    background: #2f475f;
+}
+
+.square{
+    position: relative;
+}
+
+.square::before{
+    content:"";
+    width: 35px;
+    height: 35px;
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+.square--blue::before{
+  top: 5px;
+  left: -33px;
+  background: #2f475f;
+}
+
+.square--green::before{
+    top: -35px;
+    right: 7px;
+    background: #6f7b00;
+}
+
+@media only screen and (max-width:768px) {
+
+    .square--blue::before{
+        top: -35px;
+        left: 10px;
+        background: #2f475f;
+      }
+
+}
